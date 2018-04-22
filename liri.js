@@ -86,8 +86,8 @@ function music() {
 };
 
 function movie() {
-
-	OMDB("http://www.omdbapi.com/?t=" + arg2 + "&y=&plot=short&r=json&apikey=triology", function (error, response, body) {
+    var movieURL = 'http://www.omdbapi.com/?t=' + arg2 + '&apikey=trilogy&y=&plot=short&tomatoes=true&r=json';
+	OMDB(movieURL, function (error, response, body) {
 		if (!error && response.statusCode === 200) {
 			console.log("Title: " + JSON.parse(body).Title);
 			console.log("Rating: " + JSON.parse(body).imdbRating);
@@ -96,8 +96,7 @@ function movie() {
 			console.log("Language: " + JSON.parse(body).Language);
 			console.log("Plot: " + JSON.parse(body).Plot);
 			console.log("Actors: " + JSON.parse(body).Actors);
-			console.log("Language: " + JSON.parse(body).Language);
-			console.log("Rotten Tomatoes Rating:" + JSON.parse(body).Ratings[1].Value);
+			console.log("Language: " + JSON.parse(body).Language)
 			console.log("Website: " + JSON.parse(body).Website);
 		}
 	})
