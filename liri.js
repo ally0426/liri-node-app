@@ -1,8 +1,12 @@
+require("dotenv").config();
+
 //Global variables
 var Twitter = require('twitter');
+var Spotify = require('node-spotify-api');
 var keys = require("./keys.js")
 
 var client = new Twitter(keys.twitterKeys);
+var spotify = new Spotify(keys.spotifyKeys);
 
 var OMDB = require("request");
 
@@ -83,7 +87,7 @@ function music() {
 
 function movie() {
 
-	OMDB("http://www.omdbapi.com/?t=" + arg2 + "&y=&plot=short&r=json", function (error, response, body) {
+	OMDB("http://www.omdbapi.com/?t=" + arg2 + "&y=&plot=short&r=json&apikey=triology", function (error, response, body) {
 		if (!error && response.statusCode === 200) {
 			console.log("Title: " + JSON.parse(body).Title);
 			console.log("Rating: " + JSON.parse(body).imdbRating);
@@ -98,6 +102,6 @@ function movie() {
 		}
 	})
 	if (!arg2) {
-		arg2 = "Mr. Nobody";
+		arg2 = "Mr.Nobody";
 	}
 };

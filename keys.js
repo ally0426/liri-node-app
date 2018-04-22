@@ -17,6 +17,4 @@ exports.spotifyKeys = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-exports.OMDBKeys = {
-  APIKey: "triology"
-}
+
