@@ -32,3 +32,8 @@ User Command: node liri.js spotify-this-song yesterday
 
 User Command: node liri.js spotify-this-song 
 
+Searching for: Yesterday-----------------------------------------------------------------------------------------------Tweet 1 text: @Kovebox1 
+https://t.co/936vVcjQkY
+Kovebox @ meetupTweet 1 created on: Thu Mar 24 03:22:57 +0000 2016Tweet 2 created on: Thu Mar 24 03:19:05 +0000 2016Tweet 2 text: Watch on #Periscope: kovebox https://t.co/NsIbe7lPq7--------------------------------------------------------------Tweet 3 created on: Thu Mar 24 03:17:59 +0000 2016Tweet 3 text: LIVE on #Periscope: kovebox https://t.co/F54VWOLdU3--------------------------------------------------------------Tweet 1 created on: Thu Mar 24 03:22:57 +0000 2016Tweet 1 text: @Kovebox1 
+https://t.co/936vVcjQkY
+Kovebox @ meetup--------------------------------------------------------------Tweet 2 text: Watch on #Periscope: kovebox https://t.co/NsIbe7lPq7--------------------------------------------------------------Tweet 2 created on: Thu Mar 24 03:19:05 +0000 2016Tweet 3 created on: Thu Mar 24 03:17:59 +0000 2016Tweet 3 text: LIVE on #Periscope: kovebox https://t.co/F54VWOLdU3-----------------------------------------------------------------------------------------------Searching for: The Sign---------------------------------Searching for: The Sign---------------------------------Searching for: The Sign---------------------------------Searching for: The Sign---------------------------------Searching for: The Sign
